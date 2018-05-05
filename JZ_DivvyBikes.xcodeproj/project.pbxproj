@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F86B4F58F59309460E42948 /* Pods_JZ_DivvyBikesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23E9B2CC2A0FD46A7D7EE1F /* Pods_JZ_DivvyBikesUITests.framework */; };
+		40BE44FD24451476A8CB2A00 /* Pods_JZ_DivvyBikesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C8BF23F2981E14AABCC203 /* Pods_JZ_DivvyBikesTests.framework */; };
+		5A10E9F31FAD119E00B20A5A /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10E9F21FAD119E00B20A5A /* AuthorViewController.swift */; };
+		5A10E9F71FAD11B700B20A5A /* html in Resources */ = {isa = PBXBuildFile; fileRef = 5A10E9F61FAD11B700B20A5A /* html */; };
+		5A10E9F91FAD140200B20A5A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10E9F81FAD140200B20A5A /* AboutViewController.swift */; };
+		5A10E9FB1FAD1F8B00B20A5A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10E9FA1FAD1F8B00B20A5A /* IntroViewController.swift */; };
+		5A10E9FD1FAE148200B20A5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10E9FC1FAE148200B20A5A /* LoginViewController.swift */; };
+		5A10E9FF1FAE148E00B20A5A /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10E9FE1FAE148E00B20A5A /* ResetViewController.swift */; };
+		5A10EA031FAE447C00B20A5A /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10EA021FAE447C00B20A5A /* StationsViewController.swift */; };
+		5A10EA051FAE734C00B20A5A /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10EA041FAE734C00B20A5A /* Station.swift */; };
+		5A3FC9231FA5A082006CF922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FC9221FA5A082006CF922 /* AppDelegate.swift */; };
+		5A3FC9251FA5A082006CF922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FC9241FA5A082006CF922 /* ViewController.swift */; };
+		5A3FC9281FA5A082006CF922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3FC9261FA5A082006CF922 /* Main.storyboard */; };
+		5A3FC92B1FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FC9291FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodeld */; };
+		5A3FC92D1FA5A082006CF922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3FC92C1FA5A082006CF922 /* Assets.xcassets */; };
+		5A3FC9301FA5A082006CF922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3FC92E1FA5A082006CF922 /* LaunchScreen.storyboard */; };
+		5A3FC9561FA6CC74006CF922 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3FC9541FA6CC39006CF922 /* MapKit.framework */; };
+		5ABE9AEA1FAFE73F0036394C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9AE91FAFE73F0036394C /* ContactViewController.swift */; };
+		7C2CB2360AEE8EAA65B92FB2 /* Pods_JZ_DivvyBikes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46D4A4542D04CCF73A6A936 /* Pods_JZ_DivvyBikes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A3FC9371FA5A083006CF922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3FC9171FA5A082006CF922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3FC91E1FA5A082006CF922;
+			remoteInfo = JZ_DivvyBikes;
+		};
+		5A3FC9421FA5A083006CF922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3FC9171FA5A082006CF922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3FC91E1FA5A082006CF922;
+			remoteInfo = JZ_DivvyBikes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280DDF69ED975E9755251D27 /* Pods-JZ_DivvyBikesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZ_DivvyBikesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZ_DivvyBikesTests/Pods-JZ_DivvyBikesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AE83C01ED1078D2ED62ACE4 /* Pods-JZ_DivvyBikesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZ_DivvyBikesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZ_DivvyBikesTests/Pods-JZ_DivvyBikesTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A10E9F21FAD119E00B20A5A /* AuthorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		5A10E9F61FAD11B700B20A5A /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		5A10E9F81FAD140200B20A5A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5A10E9FA1FAD1F8B00B20A5A /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		5A10E9FC1FAE148200B20A5A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A10E9FE1FAE148E00B20A5A /* ResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		5A10EA021FAE447C00B20A5A /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		5A10EA041FAE734C00B20A5A /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		5A3FC91F1FA5A082006CF922 /* JZ_DivvyBikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZ_DivvyBikes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3FC9221FA5A082006CF922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A3FC9241FA5A082006CF922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A3FC9271FA5A082006CF922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A3FC92A1FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JZ_DivvyBikes.xcdatamodel; sourceTree = "<group>"; };
+		5A3FC92C1FA5A082006CF922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A3FC92F1FA5A082006CF922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A3FC9311FA5A082006CF922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3FC9361FA5A083006CF922 /* JZ_DivvyBikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZ_DivvyBikesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3FC9411FA5A083006CF922 /* JZ_DivvyBikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZ_DivvyBikesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3FC9541FA6CC39006CF922 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5ABE9AE91FAFE73F0036394C /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = SOURCE_ROOT; };
+		72C8BF23F2981E14AABCC203 /* Pods_JZ_DivvyBikesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZ_DivvyBikesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A1AC0CD3A642496BBAE6AD /* Pods-JZ_DivvyBikesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZ_DivvyBikesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZ_DivvyBikesUITests/Pods-JZ_DivvyBikesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB9A7FC4A35B26C8BA88CFCE /* Pods-JZ_DivvyBikes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZ_DivvyBikes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZ_DivvyBikes/Pods-JZ_DivvyBikes.debug.xcconfig"; sourceTree = "<group>"; };
+		D3FDCF13F0D8AA6668264477 /* Pods-JZ_DivvyBikes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZ_DivvyBikes.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZ_DivvyBikes/Pods-JZ_DivvyBikes.release.xcconfig"; sourceTree = "<group>"; };
+		D46D4A4542D04CCF73A6A936 /* Pods_JZ_DivvyBikes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZ_DivvyBikes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD779E55D04572E0FD1BDDB8 /* Pods-JZ_DivvyBikesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZ_DivvyBikesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZ_DivvyBikesUITests/Pods-JZ_DivvyBikesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F23E9B2CC2A0FD46A7D7EE1F /* Pods_JZ_DivvyBikesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZ_DivvyBikesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A3FC91C1FA5A082006CF922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3FC9561FA6CC74006CF922 /* MapKit.framework in Frameworks */,
+				7C2CB2360AEE8EAA65B92FB2 /* Pods_JZ_DivvyBikes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3FC9331FA5A083006CF922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BE44FD24451476A8CB2A00 /* Pods_JZ_DivvyBikesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3FC93E1FA5A083006CF922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F86B4F58F59309460E42948 /* Pods_JZ_DivvyBikesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3FC9161FA5A082006CF922 = {
+			isa = PBXGroup;
+			children = (
+				5A3FC9211FA5A082006CF922 /* JZ_DivvyBikes */,
+				5A3FC9201FA5A082006CF922 /* Products */,
+				5A3FC9531FA6CC38006CF922 /* Frameworks */,
+				F0B6232E52A487442DD7B28E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5A3FC9201FA5A082006CF922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A3FC91F1FA5A082006CF922 /* JZ_DivvyBikes.app */,
+				5A3FC9361FA5A083006CF922 /* JZ_DivvyBikesTests.xctest */,
+				5A3FC9411FA5A083006CF922 /* JZ_DivvyBikesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A3FC9211FA5A082006CF922 /* JZ_DivvyBikes */ = {
+			isa = PBXGroup;
+			children = (
+				5A3FC9221FA5A082006CF922 /* AppDelegate.swift */,
+				5A3FC9241FA5A082006CF922 /* ViewController.swift */,
+				5A3FC9261FA5A082006CF922 /* Main.storyboard */,
+				5ABE9AE91FAFE73F0036394C /* ContactViewController.swift */,
+				5A10EA021FAE447C00B20A5A /* StationsViewController.swift */,
+				5A10EA041FAE734C00B20A5A /* Station.swift */,
+				5A10E9FA1FAD1F8B00B20A5A /* IntroViewController.swift */,
+				5A10E9F81FAD140200B20A5A /* AboutViewController.swift */,
+				5A10E9F21FAD119E00B20A5A /* AuthorViewController.swift */,
+				5A10E9FC1FAE148200B20A5A /* LoginViewController.swift */,
+				5A10E9FE1FAE148E00B20A5A /* ResetViewController.swift */,
+				5A10E9F61FAD11B700B20A5A /* html */,
+				5A3FC92C1FA5A082006CF922 /* Assets.xcassets */,
+				5A3FC92E1FA5A082006CF922 /* LaunchScreen.storyboard */,
+				5A3FC9311FA5A082006CF922 /* Info.plist */,
+				5A3FC9291FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodeld */,
+			);
+			path = JZ_DivvyBikes;
+			sourceTree = "<group>";
+		};
+		5A3FC9531FA6CC38006CF922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A3FC9541FA6CC39006CF922 /* MapKit.framework */,
+				D46D4A4542D04CCF73A6A936 /* Pods_JZ_DivvyBikes.framework */,
+				72C8BF23F2981E14AABCC203 /* Pods_JZ_DivvyBikesTests.framework */,
+				F23E9B2CC2A0FD46A7D7EE1F /* Pods_JZ_DivvyBikesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0B6232E52A487442DD7B28E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A7FC4A35B26C8BA88CFCE /* Pods-JZ_DivvyBikes.debug.xcconfig */,
+				D3FDCF13F0D8AA6668264477 /* Pods-JZ_DivvyBikes.release.xcconfig */,
+				280DDF69ED975E9755251D27 /* Pods-JZ_DivvyBikesTests.debug.xcconfig */,
+				4AE83C01ED1078D2ED62ACE4 /* Pods-JZ_DivvyBikesTests.release.xcconfig */,
+				DD779E55D04572E0FD1BDDB8 /* Pods-JZ_DivvyBikesUITests.debug.xcconfig */,
+				A1A1AC0CD3A642496BBAE6AD /* Pods-JZ_DivvyBikesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A3FC91E1FA5A082006CF922 /* JZ_DivvyBikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3FC94A1FA5A083006CF922 /* Build configuration list for PBXNativeTarget "JZ_DivvyBikes" */;
+			buildPhases = (
+				99413898FA2AB69BEDEC87BC /* [CP] Check Pods Manifest.lock */,
+				5A3FC91B1FA5A082006CF922 /* Sources */,
+				5A3FC91C1FA5A082006CF922 /* Frameworks */,
+				5A3FC91D1FA5A082006CF922 /* Resources */,
+				5AEA432DFC74FE2852527ADC /* [CP] Embed Pods Frameworks */,
+				01CABD6764A19B96094F8640 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZ_DivvyBikes;
+			productName = JZ_DivvyBikes;
+			productReference = 5A3FC91F1FA5A082006CF922 /* JZ_DivvyBikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A3FC9351FA5A083006CF922 /* JZ_DivvyBikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3FC94D1FA5A083006CF922 /* Build configuration list for PBXNativeTarget "JZ_DivvyBikesTests" */;
+			buildPhases = (
+				DA29126F2E133160EBC6F798 /* [CP] Check Pods Manifest.lock */,
+				5A3FC9321FA5A083006CF922 /* Sources */,
+				5A3FC9331FA5A083006CF922 /* Frameworks */,
+				5A3FC9341FA5A083006CF922 /* Resources */,
+				C17E0A87F8755352EB743146 /* [CP] Embed Pods Frameworks */,
+				67179A2FEF64C414D910AD55 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3FC9381FA5A083006CF922 /* PBXTargetDependency */,
+			);
+			name = JZ_DivvyBikesTests;
+			productName = JZ_DivvyBikesTests;
+			productReference = 5A3FC9361FA5A083006CF922 /* JZ_DivvyBikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A3FC9401FA5A083006CF922 /* JZ_DivvyBikesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3FC9501FA5A083006CF922 /* Build configuration list for PBXNativeTarget "JZ_DivvyBikesUITests" */;
+			buildPhases = (
+				E1B0BA11CB38693EACCA835A /* [CP] Check Pods Manifest.lock */,
+				5A3FC93D1FA5A083006CF922 /* Sources */,
+				5A3FC93E1FA5A083006CF922 /* Frameworks */,
+				5A3FC93F1FA5A083006CF922 /* Resources */,
+				B79916B733873B32D4E49499 /* [CP] Embed Pods Frameworks */,
+				915245A05850177A521DADA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3FC9431FA5A083006CF922 /* PBXTargetDependency */,
+			);
+			name = JZ_DivvyBikesUITests;
+			productName = JZ_DivvyBikesUITests;
+			productReference = 5A3FC9411FA5A083006CF922 /* JZ_DivvyBikesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A3FC9171FA5A082006CF922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "NIU CS Department";
+				TargetAttributes = {
+					5A3FC91E1FA5A082006CF922 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S224WD5FPF;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5A3FC9351FA5A083006CF922 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S224WD5FPF;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A3FC91E1FA5A082006CF922;
+					};
+					5A3FC9401FA5A083006CF922 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S224WD5FPF;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A3FC91E1FA5A082006CF922;
+					};
+				};
+			};
+			buildConfigurationList = 5A3FC91A1FA5A082006CF922 /* Build configuration list for PBXProject "JZ_DivvyBikes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A3FC9161FA5A082006CF922;
+			productRefGroup = 5A3FC9201FA5A082006CF922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A3FC91E1FA5A082006CF922 /* JZ_DivvyBikes */,
+				5A3FC9351FA5A083006CF922 /* JZ_DivvyBikesTests */,
+				5A3FC9401FA5A083006CF922 /* JZ_DivvyBikesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A3FC91D1FA5A082006CF922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3FC9301FA5A082006CF922 /* LaunchScreen.storyboard in Resources */,
+				5A10E9F71FAD11B700B20A5A /* html in Resources */,
+				5A3FC92D1FA5A082006CF922 /* Assets.xcassets in Resources */,
+				5A3FC9281FA5A082006CF922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3FC9341FA5A083006CF922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3FC93F1FA5A083006CF922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01CABD6764A19B96094F8640 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZ_DivvyBikes/Pods-JZ_DivvyBikes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEA432DFC74FE2852527ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JZ_DivvyBikes/Pods-JZ_DivvyBikes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZ_DivvyBikes/Pods-JZ_DivvyBikes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67179A2FEF64C414D910AD55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZ_DivvyBikesTests/Pods-JZ_DivvyBikesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		915245A05850177A521DADA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZ_DivvyBikesUITests/Pods-JZ_DivvyBikesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99413898FA2AB69BEDEC87BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JZ_DivvyBikes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79916B733873B32D4E49499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZ_DivvyBikesUITests/Pods-JZ_DivvyBikesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17E0A87F8755352EB743146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZ_DivvyBikesTests/Pods-JZ_DivvyBikesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA29126F2E133160EBC6F798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JZ_DivvyBikesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B0BA11CB38693EACCA835A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JZ_DivvyBikesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A3FC91B1FA5A082006CF922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A10E9FD1FAE148200B20A5A /* LoginViewController.swift in Sources */,
+				5A3FC9251FA5A082006CF922 /* ViewController.swift in Sources */,
+				5A3FC92B1FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodeld in Sources */,
+				5A10EA031FAE447C00B20A5A /* StationsViewController.swift in Sources */,
+				5A3FC9231FA5A082006CF922 /* AppDelegate.swift in Sources */,
+				5A10E9FB1FAD1F8B00B20A5A /* IntroViewController.swift in Sources */,
+				5ABE9AEA1FAFE73F0036394C /* ContactViewController.swift in Sources */,
+				5A10E9F91FAD140200B20A5A /* AboutViewController.swift in Sources */,
+				5A10EA051FAE734C00B20A5A /* Station.swift in Sources */,
+				5A10E9FF1FAE148E00B20A5A /* ResetViewController.swift in Sources */,
+				5A10E9F31FAD119E00B20A5A /* AuthorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3FC9321FA5A083006CF922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3FC93D1FA5A083006CF922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A3FC9381FA5A083006CF922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3FC91E1FA5A082006CF922 /* JZ_DivvyBikes */;
+			targetProxy = 5A3FC9371FA5A083006CF922 /* PBXContainerItemProxy */;
+		};
+		5A3FC9431FA5A083006CF922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3FC91E1FA5A082006CF922 /* JZ_DivvyBikes */;
+			targetProxy = 5A3FC9421FA5A083006CF922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A3FC9261FA5A082006CF922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3FC9271FA5A082006CF922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A3FC92E1FA5A082006CF922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3FC92F1FA5A082006CF922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A3FC9481FA5A083006CF922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5A3FC9491FA5A083006CF922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A3FC94B1FA5A083006CF922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9A7FC4A35B26C8BA88CFCE /* Pods-JZ_DivvyBikes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = JZ_DivvyBikes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.JZ-DivvyBikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5A3FC94C1FA5A083006CF922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FDCF13F0D8AA6668264477 /* Pods-JZ_DivvyBikes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = JZ_DivvyBikes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.JZ-DivvyBikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5A3FC94E1FA5A083006CF922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280DDF69ED975E9755251D27 /* Pods-JZ_DivvyBikesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = JZ_DivvyBikesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.JZ-DivvyBikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZ_DivvyBikes.app/JZ_DivvyBikes";
+			};
+			name = Debug;
+		};
+		5A3FC94F1FA5A083006CF922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE83C01ED1078D2ED62ACE4 /* Pods-JZ_DivvyBikesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = JZ_DivvyBikesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.JZ-DivvyBikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZ_DivvyBikes.app/JZ_DivvyBikes";
+			};
+			name = Release;
+		};
+		5A3FC9511FA5A083006CF922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD779E55D04572E0FD1BDDB8 /* Pods-JZ_DivvyBikesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = JZ_DivvyBikesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.JZ-DivvyBikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = JZ_DivvyBikes;
+			};
+			name = Debug;
+		};
+		5A3FC9521FA5A083006CF922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A1AC0CD3A642496BBAE6AD /* Pods-JZ_DivvyBikesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = JZ_DivvyBikesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.JZ-DivvyBikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = JZ_DivvyBikes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A3FC91A1FA5A082006CF922 /* Build configuration list for PBXProject "JZ_DivvyBikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3FC9481FA5A083006CF922 /* Debug */,
+				5A3FC9491FA5A083006CF922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3FC94A1FA5A083006CF922 /* Build configuration list for PBXNativeTarget "JZ_DivvyBikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3FC94B1FA5A083006CF922 /* Debug */,
+				5A3FC94C1FA5A083006CF922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3FC94D1FA5A083006CF922 /* Build configuration list for PBXNativeTarget "JZ_DivvyBikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3FC94E1FA5A083006CF922 /* Debug */,
+				5A3FC94F1FA5A083006CF922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3FC9501FA5A083006CF922 /* Build configuration list for PBXNativeTarget "JZ_DivvyBikesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3FC9511FA5A083006CF922 /* Debug */,
+				5A3FC9521FA5A083006CF922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A3FC9291FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A3FC92A1FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodel */,
+			);
+			currentVersion = 5A3FC92A1FA5A082006CF922 /* JZ_DivvyBikes.xcdatamodel */;
+			path = JZ_DivvyBikes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A3FC9171FA5A082006CF922 /* Project object */;
+}
